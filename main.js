@@ -34,6 +34,6 @@ const btn = document.querySelector('.click_btn')
 btn.addEventListener('click',()=>{
 
     pickNumbers()
-
+    alert('번호가 생성되었습니다.')
 
 })
