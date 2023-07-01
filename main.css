@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 350px;
+    height: 450px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.tit{
+    text-align: center;
+    font-size: 28px;
+    color: steelblue;
+    margin-top: 50px;
+}
+
+.main_txt p:nth-child(1){
+    text-align: center;
+    margin-top: 20px;
+}
+
+.click_btn{
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin:0 auto;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+    background-color: steelblue;
+    color: #fff;
+    cursor: pointer;
+
+}
+.num{
+    text-align: center;
+}
+.number{
+    background-color:tomato;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.num_wrap{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    opacity: 1;
+}
+.show{
+    opacity: 0;
+}
+.number:nth-child(2){
+    background-color:steelblue;
+}
+.number:nth-child(3){
+    background-color: burlywood;
+}
+.number:nth-child(4){
+    background-color: seagreen;
+}
+.number:nth-child(5){
+    background-color: salmon;
+}
+.number:nth-child(6){
+    background-color:plum;
+}
+i{
+    font-size: 40px;
+    color: gold;
+    margin-top: 30px;
+}
