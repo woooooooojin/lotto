@@ -50,6 +50,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
+    font-weight: bold;
 }
 .num_wrap{
     display: flex;
@@ -58,6 +59,7 @@
     opacity: 1;
     color: #fff;
     font-size: 18px;
+    transition: .3s;
 }
 .show{
     opacity: 0;

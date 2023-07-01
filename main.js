@@ -7,9 +7,9 @@ function pickNumbers(){
             numbers.push(randomNum)
         }
     }
-    // let numbersElement = document.querySelector('.num_wrap')
+    let numbersElement = document.querySelector('.num_wrap')
     // numbersElement.innerHTML = '추첨된 번호 : '
-    // numbersElement.classList.remove('show')
+    numbersElement.classList.remove('show')
     let i =0;
     let intervalId = setInterval(function(){
         if(i=== numbers.length){
@@ -25,7 +25,7 @@ function pickNumbers(){
     numbers= [];
         
        
-    },1000) 
+    },300) 
 
 }
 
@@ -34,6 +34,5 @@ const btn = document.querySelector('.click_btn')
 btn.addEventListener('click',()=>{
 
     pickNumbers()
-    alert('번호가 생성되었습니다.')
 
 })
