@@ -59,7 +59,7 @@
     opacity: 1;
     color: #fff;
     font-size: 18px;
-    transition: .3s;
+    transition: .5s;
 }
 .show{
     opacity: 0;
